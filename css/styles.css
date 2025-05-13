@@ -4441,3 +4441,23 @@ td:last-child {
         right: -2rem;
     }
 }
+.entry__thumb img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* forces a square ratio */
+    object-fit: cover;
+    display: block;
+}
+
+.glightbox-video iframe {
+    object-fit: contain !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+/* .glightbox-container .gslide-video video,
+.glightbox-container iframe {
+    width: auto !important;
+    height: 90vh !important;
+    max-width: 100%;
+} */
